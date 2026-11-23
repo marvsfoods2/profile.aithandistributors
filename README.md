@@ -1,34 +1,29 @@
-# Aithan Jeshurun — Profile Website
+# Aithan Jeshurun — Official Profile Website
 
-A responsive, multi-page static website starter for the public professional profile of Aithan Jeshurun.
+Static multi-page website prepared for `https://profile.aithandistributors.com/`.
 
-## Files
-- `index.html` — homepage
-- `about.html` — founder biography
-- `business.html` — business portfolio
-- `faith.html` — faith and philanthropy
-- `heritage.html` — heritage and legacy
-- `contact.html` — official business contact
-- `assets/style.css` — shared responsive styling
-- `assets/main.js` — mobile navigation and footer year
+## Included
+- Homepage and biography, business, faith/philanthropy, heritage and contact pages
+- Shared responsive stylesheet and navigation script
+- Canonical URLs, page-specific titles and descriptions
+- Open Graph and Twitter summary metadata
+- Person, Organization, WebSite and WebPage structured data
+- `robots.txt` and `sitemap.xml`
 
-## Preview locally
-Open `index.html` in a browser, or use VS Code Live Server.
+## Publish
+Upload the **contents** of this folder to the root of the GitHub Pages or Cloudflare Pages project configured for `profile.aithandistributors.com`.
 
-## Publish free
-You can publish this folder using GitHub Pages or Cloudflare Pages. Upload the contents of this folder as the site root.
+## Before or immediately after publishing
+1. Confirm the custom domain is serving this exact site over HTTPS.
+2. Review and approve every factual statement with Aithan Jeshurun. Do not publish claims that cannot be substantiated.
+3. Confirm Aithan Distributors is accurately described as an organization he founded before retaining the `founder` relationship in structured data.
+4. Add official social profile URLs to `sameAs` only when they are verified and controlled by or officially represent Aithan Jeshurun. None have been invented here.
+5. Add a genuine, licensed portrait if approved, then add its absolute URL to the Open Graph image metadata and relevant structured data.
+6. In Google Search Console, add/verify the domain or URL-prefix property, submit `https://profile.aithandistributors.com/sitemap.xml`, and inspect the homepage and request indexing.
+7. Test structured data with Google's Rich Results Test and Schema.org Validator.
 
-## Before publishing — essential checklist
-1. Obtain the client's approval of every biography and personal statement.
-2. Confirm whether Aithan Automobiles, Aithan Engines & Machineries, Aithan Foods and Aithan Oils are subsidiaries, separate companies, brands or business divisions. The current copy calls them business interests pending confirmation.
-3. Confirm the exact wording of the client's Israeli/Hebrew heritage. Do not infer a tribe, lineage or citizenship.
-4. Ask for verifiable examples of charitable work before describing specific philanthropic accomplishments.
-5. Replace `https://YOUR-PUBLISHED-DOMAIN/` in the JSON-LD in `index.html` with the final canonical homepage URL. If publishing on a free hosting subdomain, use that exact URL.
-6. Add official links for each business only after the client confirms them.
-7. Check all pages on mobile and desktop.
+## SEO notes
+SEO improvements help search engines crawl and understand the site; they do not guarantee indexing, a first-place ranking, or a Knowledge Panel. Do not generate artificial traffic, repeated pings or spam backlinks. Build independent, accurate references and useful content over time.
 
-## Important SEO note
-The JSON-LD describes a Person and a relationship to Aithan Distributors. Keep it only if the founder relationship is accurate and publicly approved. Structured data helps search engines interpret a page; it does not guarantee a Knowledge Panel or a particular ranking.
-
-## Google Sites
-This is a standalone coded website, not a script that can replace the full design of a Google Sites page. Use this project with GitHub Pages or Cloudflare Pages for full design control.
+## Important limitation
+The original ZIP contained only HTML and README files. It referenced `assets/style.css` and `assets/main.js`, but those assets were missing. This updated package includes both so the site can render and its mobile navigation can work.
