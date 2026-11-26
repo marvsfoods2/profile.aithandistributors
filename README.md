@@ -6,7 +6,9 @@ Static multi-page website prepared for `https://profile.aithandistributors.com/`
 - Homepage and biography, business, faith/philanthropy, heritage and contact pages
 - Shared responsive stylesheet and navigation script
 - Canonical URLs, page-specific titles and descriptions
-- Open Graph and Twitter summary metadata
+- Open Graph and Twitter large-image preview metadata with a designed social sharing card
+- Official emblem used in navigation, footer, homepage and favicon
+- Press & Media page removed from the site navigation and sitemap
 - Person, Organization, WebSite and WebPage structured data
 - `robots.txt` and `sitemap.xml`
 
@@ -25,5 +27,9 @@ Upload the **contents** of this folder to the root of the GitHub Pages or Cloudf
 ## SEO notes
 SEO improvements help search engines crawl and understand the site; they do not guarantee indexing, a first-place ranking, or a Knowledge Panel. Do not generate artificial traffic, repeated pings or spam backlinks. Build independent, accurate references and useful content over time.
 
-## Important limitation
-The original ZIP contained only HTML and README files. It referenced `assets/style.css` and `assets/main.js`, but those assets were missing. This updated package includes both so the site can render and its mobile navigation can work.
+## Branding assets
+- `assets/aithan-logo.jpg` — supplied official emblem used on-site
+- `assets/favicon.png` — square favicon version
+- `assets/social-card.jpg` — custom social sharing preview image for Open Graph and Twitter/X
+
+Google may take time to recrawl the site and update its favicon or image previews. This package provides the correct assets and metadata, but does not guarantee an immediate Google result change.
